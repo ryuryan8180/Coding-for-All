@@ -1,0 +1,94 @@
+#container4 {
+  z-index: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 7px;
+  touch-action: none;
+  position: relative;
+  --target-name: target4;
+}
+
+.target4 {
+  z-index: 2;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: lime;
+}
+
+.target-4 {
+  top: 20px;
+  left: 375px;
+  --answer: 1;
+}
+
+.target-5 {
+  top: 280px;
+  left: 215px;
+  --answer: 2;
+}
+
+.obj-13 {
+  --top: 40;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-14 {
+  --top: 150;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-15 {
+  --top: 260;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-16 {
+  --top: 370;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-17 {
+  --top: 480;
+  --left: 680;
+  --answer: 1;
+}
+
+.obj-18 {
+  --top: 260;
+  --left: 570;
+  --answer: 0;
+}
+
+.obj-19 {
+  --top: 370;
+  --left: 570;
+  --answer: 0;
+}
+
+.obj-20 {
+  --top: 480;
+  --left: 570;
+  --answer: 2;
+}
+
+.text-4 {
+  top: -40px;
+  left: 40px;
+}

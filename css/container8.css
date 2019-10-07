@@ -1,0 +1,94 @@
+#container8 {
+  z-index: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 7px;
+  touch-action: none;
+  position: relative;
+  --target-name: target8;
+}
+
+.target8 {
+  z-index: 2;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: lime;
+}
+
+.target-9 {
+  top: 20px;
+  left: 375px;
+  --answer: 1;
+}
+
+.target-10 {
+  top: 280px;
+  left: 215px;
+  --answer: 2;
+}
+
+.obj-33 {
+  --top: 40;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-34 {
+  --top: 150;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-35 {
+  --top: 260;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-36 {
+  --top: 370;
+  --left: 680;
+  --answer: 1;
+}
+
+.obj-37 {
+  --top: 480;
+  --left: 680;
+  --answer: 0;
+}
+
+.obj-38 {
+  --top: 260;
+  --left: 570;
+  --answer: 0;
+}
+
+.obj-39 {
+  --top: 370;
+  --left: 570;
+  --answer: 2;
+}
+
+.obj-40 {
+  --top: 480;
+  --left: 570;
+  --answer: 0;
+}
+
+.text-8 {
+  top: -40px;
+  left: 40px;
+}

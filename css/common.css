@@ -1,0 +1,49 @@
+.answerborder {
+  border-style: solid;
+  border-color: #287ec7;
+  margin: 10px auto 10px auto;
+  width: 800px;
+}
+
+.obj {
+  z-index: 3;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: rgb(245, 230, 99);
+  border: 10px solid rgba(136, 136, 136, 0.5);
+}
+
+.obj:active {
+  opacity: 0.75;
+}
+
+.obj:hover {
+  cursor: pointer;
+}
+
+.text-center {
+  margin: 0;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: -67px;
+  left: 9px;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.text {
+  z-index: 1;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  color: white;
+}

@@ -1,0 +1,64 @@
+#container5 {
+  z-index: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 7px;
+  touch-action: none;
+  position: relative;
+  --target-name: target5;
+}
+
+.target5 {
+  z-index: 2;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: lime;
+}
+
+.target-6 {
+  top: 260px;
+  left: 180px;
+  --answer: 1;
+}
+
+.obj-21 {
+  --top: 50;
+  --left: 640;
+  --answer: 0;
+}
+
+.obj-22 {
+  --top: 190;
+  --left: 640;
+  --answer: 1;
+}
+
+.obj-23 {
+  --top: 330;
+  --left: 640;
+  --answer: 0;
+}
+
+.obj-24 {
+  --top: 470;
+  --left: 640;
+  --answer: 0;
+}
+
+.text-1 {
+  top: 200px;
+  left: 100px;
+}
